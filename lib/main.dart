@@ -2,15 +2,14 @@ import 'package:carp_kenya/downloads.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/widgets.dart';
-import 'package:flutter_downloader/flutter_downloader.dart';
 import 'Books.dart';
 import 'Home.dart';
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  await FlutterDownloader.initialize(
-    debug: true // optional: set false to disable printing logs to console
-);
+  //await FlutterDownloader.initialize(
+    //debug: true // optional: set false to disable printing logs to console
+
   runApp(MyApp());
 }
 

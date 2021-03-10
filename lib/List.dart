@@ -6,11 +6,10 @@ import 'package:http/http.dart' as http;
 import 'dart:convert' as convert;
 import 'dart:async';
 
-
 class CardList extends StatefulWidget {
   CardList({Key key, this.cardings}) : super(key: key);
 
-  final List cardings;  
+  final List cardings;
 
   @override
   _CardListState createState() => _CardListState();
@@ -18,7 +17,6 @@ class CardList extends StatefulWidget {
 
 class _CardListState extends State<CardList>
     with AutomaticKeepAliveClientMixin {
-
   dynamic data;
 
   @override
@@ -40,8 +38,6 @@ class _CardListState extends State<CardList>
     });
     return "Success";
   }
- 
-
 
   @override
   Widget build(BuildContext context) {
