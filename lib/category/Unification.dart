@@ -44,6 +44,7 @@ class _UnificationState extends State<Unification>
   @override
   Widget build(BuildContext context) {
     super.build(context);
+
     if (category != null) {
       return Scaffold(
         appBar: AppBar(
@@ -105,9 +106,7 @@ class _UnificationState extends State<Unification>
           ),
         ),
       );
-    }
-
-    if (category == null) {
+    } else {
       return Scaffold(
         appBar: AppBar(
           title: Text(
