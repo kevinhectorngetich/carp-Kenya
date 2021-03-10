@@ -74,7 +74,7 @@ class _DownloadsState extends State<Downloads> {
     return false;
   }
 
-  Future<int> deleteFile(File dfile) async {
+  Future<void> deleteFile(File dfile) async {
     try {
       final file = dfile;
       await file.delete();

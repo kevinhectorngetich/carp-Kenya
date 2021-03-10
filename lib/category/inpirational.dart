@@ -123,7 +123,6 @@ class _InspirationalState extends State<Inspirational>
                 Center(
                   child: SpinKitFadingCircle(
                     color: Colors.blue,
-                    duration: Duration(milliseconds: 60000),
                   ),
                 ),
                 Text("Oops Something went wrong",

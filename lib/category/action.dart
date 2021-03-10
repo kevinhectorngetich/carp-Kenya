@@ -120,8 +120,7 @@ class _DramaState extends State<Drama> with AutomaticKeepAliveClientMixin {
               children: [
                 Center(
                   child: SpinKitFadingCircle(
-                      color: Colors.blue,
-                      duration: Duration(milliseconds: 60000)),
+                      color: Colors.blue,),
                 ),
                 Text("Oops Something went wrong",
                     style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold))

@@ -122,7 +122,6 @@ class _EducationalState extends State<Educational>
                 Center(
                   child: SpinKitFadingCircle(
                     color: Colors.blue,
-                    duration: Duration(milliseconds: 60000),
                   ),
                 ),
                 Text("Oops Something went wrong",

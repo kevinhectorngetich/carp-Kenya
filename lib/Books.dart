@@ -20,7 +20,8 @@ class _BooksState extends State<Books> with AutomaticKeepAliveClientMixin {
 
   @override
   Widget build(BuildContext context) {
-    Map data = ModalRoute.of(context).settings.arguments;
+    super.build(context);
+   // Map data = ModalRoute.of(context).settings.arguments;
 
     return Scaffold(
       appBar: AppBar(
